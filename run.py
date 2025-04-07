@@ -2,7 +2,7 @@ import importlib.util
 import os
 
 def run_tests():
-    solution_path = os.path.join(os.path.dirname(__file__), "student_workspace", "solution2.py")
+    solution_path = os.path.join(os.path.dirname(__file__), "student_workspace", "solution.py")
     driver_path = os.path.join(os.path.dirname(__file__), "secret_tests", "driver.py")
 
     spec = importlib.util.spec_from_file_location("driver", driver_path)
